@@ -1,0 +1,22 @@
+{
+  "name": "emart-server",
+  "version": "1.0.0",
+  "description": "Ecommerce server using using node and mysql",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MADHAVAN5/Emart-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MADHAVAN5/Emart-Server/issues"
+  },
+  "homepage": "https://github.com/MADHAVAN5/Emart-Server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
