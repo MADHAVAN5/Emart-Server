@@ -10,6 +10,7 @@ exports.signUp = async (req, res) => {
 }
 
 exports.login = async (req, res) => {
+    console.log('hi');
     var email = req.body.email;
     var password = req.body.password;
     var sql = `SELECT * FROM users WHERE email='${email}'`;
